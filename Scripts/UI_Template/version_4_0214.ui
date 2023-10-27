@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1233</width>
+    <height>868</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>1041</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="label_show1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>480</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="show_1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>480</width>
+       <height>360</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_show2">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>20</y>
+       <width>480</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>80</y>
+       <width>481</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <widget class="QLabel" name="show_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>480</width>
+        <height>360</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>480</y>
+      <width>1041</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Annotation</string>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>31</y>
+       <width>1021</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QListWidget" name="txt_list">
+        <property name="font">
+         <font>
+          <family>Times New Roman</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="push_add">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Add</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="push_reset">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Reset</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="push_save">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Save</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>20</y>
+      <width>258</width>
+      <height>731</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QListWidget" name="file_list"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="push_select">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Select Folder</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1233</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_Theme">
+    <property name="title">
+     <string>&amp;Theme</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="action_dark_amber"/>
+    <addaction name="action_dark_blue"/>
+    <addaction name="actionDark_Lightgreen"/>
+    <addaction name="action_dark_teal"/>
+    <addaction name="action_dark_red"/>
+    <addaction name="action_Dark_Pink"/>
+    <addaction name="action_light_amber"/>
+    <addaction name="action_light_blue"/>
+    <addaction name="actionLight_Lightgreen"/>
+    <addaction name="action_light_teal"/>
+    <addaction name="action_light_red"/>
+    <addaction name="actionLight_Pink"/>
+   </widget>
+   <addaction name="menu_Theme"/>
+  </widget>
+  <action name="action_dark_amber">
+   <property name="text">
+    <string>Dark_Amber</string>
+   </property>
+  </action>
+  <action name="action_dark_blue">
+   <property name="text">
+    <string>Dark_Blue</string>
+   </property>
+  </action>
+  <action name="action_light_amber">
+   <property name="text">
+    <string>Light_Amber</string>
+   </property>
+  </action>
+  <action name="action_light_blue">
+   <property name="text">
+    <string>&amp;Light_Blue</string>
+   </property>
+  </action>
+  <action name="action_dark_teal">
+   <property name="text">
+    <string>&amp;Dark_Teal</string>
+   </property>
+  </action>
+  <action name="action_light_teal">
+   <property name="text">
+    <string>&amp;Light_Teal</string>
+   </property>
+  </action>
+  <action name="action_light_red">
+   <property name="text">
+    <string>&amp;Light_Red</string>
+   </property>
+  </action>
+  <action name="action_dark_red">
+   <property name="text">
+    <string>&amp;Dark_Red</string>
+   </property>
+  </action>
+  <action name="action_Dark_Pink">
+   <property name="text">
+    <string>&amp;Dark_Pink</string>
+   </property>
+  </action>
+  <action name="actionLight_Pink">
+   <property name="text">
+    <string>Light_Pink</string>
+   </property>
+  </action>
+  <action name="actionDark_Lightgreen">
+   <property name="text">
+    <string>Dark_Lightgreen</string>
+   </property>
+  </action>
+  <action name="actionLight_Lightgreen">
+   <property name="text">
+    <string>Light_Lightgreen</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
